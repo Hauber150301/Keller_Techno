@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keller Techno - Phil Keller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .media {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .media img, .media video {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Keller Techno - Phil Keller</h1>
+        <p>Willkommen auf der offiziellen Seite von Phil Keller, dem Techno-Künstler.</p>
+    </header>
+    <nav>
+        <a href="#about">Über</a>
+        <a href="#music">Musik</a>
+        <a href="#events">Events</a>
+        <a href="#community">Community</a>
+    </nav>
+    <section id="about">
+        <h2>Über Phil Keller</h2>
+        <p>Phil Keller ist ein aufstrebender Techno-Künstler, der mit seinen energiegeladenen Tracks die Tanzflächen zum Beben bringt. Seine Musik ist eine einzigartige Mischung aus hypnotischen Rhythmen und pulsierenden Beats, die jeden in ihren Bann ziehen.</p>
+        <p>Folge Phil Keller auf <a href="https://www.instagram.com/kellertechno?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a> für die neuesten Updates.</p>
+    </section>
+    <section id="music">
+        <h2>Musik</h2>
+        <p>Hier kannst du einige kurze Auszüge aus Phil Kellers Tracks hören:</p>
+        <audio controls>
+            <source src="https://drive.google.com/file/d/10BWjYnDJunFVtF2qutaF972P0PnCghY7/view?usp=drive_link" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Um den vollständigen Song anzuhören, besuche Phil Kellers Profil auf <a href="https://open.spotify.com/intl-de/artist/5XPBUJaOxzUSe3ngpxK3Rt">Spotify</a>.</p>
+    </section>
+    <section id="events">
+        <h2>Geplante Events</h2>
+        <p>Derzeit sind keine Events geplant. Bitte schauen Sie bald wieder vorbei, um Updates zu erhalten.</p>
+    </section>
+    <section id="community">
+        <h2>Community</h2>
+        <p>Schreiben Sie uns eine Nachricht:</p>
+        <form action="#">
+            <label for="message">Nachricht:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Senden">
+        </form>
+    </section>
+    <section class="media">
+        <h2>Bilder und Videos</h2>
+        <img src="https://drive.google.com/file/d/1ScBPXjpswe1EgkBBCuE7vNlqWghRlxO4/view?usp=drive_link" alt="Bild von Phil Keller">
+        <video controls>
+            <source src="https://drive.google.com/file/d/1tSWdK0BzPrFzqeP0ZqhfgC8jZTMuHjOx/view?usp=drive_link" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <footer>
+        <p>&copy; 2024 Keller Techno - Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
+
+
